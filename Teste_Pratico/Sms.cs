@@ -7,15 +7,15 @@ namespace Teste_Pratico
     class Sms
     {
         //tabela de valores que serão utilizados na interpretação da mensagem
-        public char zero = ' ';
-        public char[] dois = new char[3] { 'A', 'B', 'C' };
-        public char[] tres = new char[3] { 'D', 'E', 'F' };
-        public char[] quatro = new char[3] { 'G', 'H', 'I' };
-        public char[] cinco = new char[3] { 'J', 'K', 'L' };
-        public char[] seis = new char[3] { 'M', 'N', 'O' };
-        public char[] sete = new char[4] { 'P', 'Q', 'R','S'};
-        public char[] oito = new char[3] { 'T', 'U', 'V' };
-        public char[] nove = new char[4] { 'W', 'X', 'Y', 'Z'};
+        private static char zero = ' ';
+        private static char[] dois = new char[3] { 'A', 'B', 'C' };
+        private static char[] tres = new char[3] { 'D', 'E', 'F' };
+        private static char[] quatro = new char[3] { 'G', 'H', 'I' };
+        private static char[] cinco = new char[3] { 'J', 'K', 'L' };
+        private static char[] seis = new char[3] { 'M', 'N', 'O' };
+        private static char[] sete = new char[4] { 'P', 'Q', 'R','S'};
+        private static char[] oito = new char[3] { 'T', 'U', 'V' };
+        private static char[] nove = new char[4] { 'W', 'X', 'Y', 'Z'};
 
         String[] texto;
         String textoInterpretado;
